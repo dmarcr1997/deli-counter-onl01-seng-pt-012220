@@ -23,7 +23,7 @@ end
 
 
 def now_serving(line_arr)
-  if line(line_arr) == false
+  if line_arr.count() == 0
     puts"There is nobody waiting to be served!"
   else
     next_name = line_arr.shift
