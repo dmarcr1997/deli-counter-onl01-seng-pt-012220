@@ -1,13 +1,13 @@
 require 'pry'
 # Write your code here.
 def line(line_arr)
-  line_string= "The line is currently: "
+  line_string= "The line is currently:"
   if line_arr.count() == 0
     puts "The line is currently empty."
     return false
   else
     line_arr.each_with_index do |item, index|
-      line_string << "#{index+1}. #{item} "
+      line_string << " #{index+1}. #{item}"
     end
     puts line_string
   end
