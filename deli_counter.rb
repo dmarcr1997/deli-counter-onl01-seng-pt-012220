@@ -22,6 +22,9 @@ end
 
 
 def now_serving(line_arr)
-  next_name = line_arr.shift
   if line(line_arr) == false
     puts"There is nobody waiting to be served!"
+  else
+    next_name = line_arr.shift
+    puts "Currently serving #{next_name}
+  end
