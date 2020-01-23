@@ -1,4 +1,3 @@
-require 'pry'
 # Write your code here.
 
 def line(line_arr)
@@ -31,4 +30,3 @@ def now_serving(line_arr)
   end
 end
 
-binding.pry
