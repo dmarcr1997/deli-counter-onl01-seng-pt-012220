@@ -3,6 +3,7 @@ require 'pry'
 def line(line_arr)
   if line_arr.count() == 0
     puts "The line is currently empty"
+    return false
   else
     return line_arr.count() + 1
   end
@@ -17,4 +18,5 @@ binding.pry
 
 def now_serving(line_arr)
   next_name = line_arr.shift
-  if line(line_arr) == ""
+  if line(line_arr) == false
+    
