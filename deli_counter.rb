@@ -8,3 +8,7 @@ def line(line_arr)
   end
 end
 
+def take_a_number(line_arr, name)
+  line_arr << name
+  puts
+end
