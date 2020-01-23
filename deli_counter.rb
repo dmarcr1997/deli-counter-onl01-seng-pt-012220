@@ -11,7 +11,7 @@ def line(line_arr)
     end
     puts line_string
   end
-  return line_arr.count())+1
+  return line_arr.count()+1
 end
 
 def take_a_number(line_arr, name)
