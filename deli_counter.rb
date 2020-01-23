@@ -10,5 +10,9 @@ end
 
 def take_a_number(line_arr, name)
   line_arr << name
-  puts
+  place = line(line_arr)
+  puts "#{name} your place in line is #{place}"
 end
+
+def now_serving(line_arr)
+  next_name = 
