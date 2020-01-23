@@ -17,7 +17,7 @@ end
 
 def take_a_number(line_arr, name)
   line_arr << name
-  place = line_arr.count()+1
+  place = line_arr.count()
   puts "Welcome, #{name}. You are number #{place} in line."
 end
 
