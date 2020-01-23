@@ -8,4 +8,3 @@ def line(line_arr)
   end
 end
 
-binding.pry
