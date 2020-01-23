@@ -26,5 +26,8 @@ def now_serving(line_arr)
     puts"There is nobody waiting to be served!"
   else
     next_name = line_arr.shift
-    puts "Currently serving #{next_name}
+    puts "Currently serving #{next_name}."
   end
+end
+
+binding.pry
