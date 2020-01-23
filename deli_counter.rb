@@ -1,5 +1,6 @@
 require 'pry'
 # Write your code here.
+
 def line(line_arr)
   line_string= "The line is currently:"
   if line_arr.count() == 0
@@ -16,7 +17,7 @@ end
 
 def take_a_number(line_arr, name)
   line_arr << name
-  place = line(line_arr)
+  place = line_arr.count()+1
   puts "Welcome, #{name}. You are number #{place} in line."
 end
 
