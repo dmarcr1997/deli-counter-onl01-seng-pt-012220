@@ -16,5 +16,5 @@ end
 binding.pry
 
 def now_serving(line_arr)
-  next_name = line_arr[0]
-  line_arr.shift
+  next_name = line_arr.shift
+  if line(line_arr) == ""
