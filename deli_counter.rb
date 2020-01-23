@@ -8,4 +8,4 @@ def line(line_arr)
   end
 end
 
-banding.
+binding.pry
