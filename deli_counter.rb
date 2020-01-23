@@ -1,4 +1,4 @@
-
+require 'pry'
 # Write your code here.
 def line(line_arr)
   if line_arr.count() == 0
@@ -7,3 +7,5 @@ def line(line_arr)
     return line_arr.count() + 1
   end
 end
+
+banding.
