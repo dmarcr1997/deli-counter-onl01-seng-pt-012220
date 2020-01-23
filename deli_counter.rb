@@ -14,5 +14,5 @@ def take_a_number(line_arr, name)
   puts "#{name} your place in line is #{place}"
 end
 binding.pry
-# def now_serving(line_arr)
+def now_serving(line_arr)
   next_name = 
